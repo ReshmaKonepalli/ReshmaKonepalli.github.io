@@ -1,19 +1,19 @@
 .top-header {
     width: 100%;
     height: 5em;
-    background-color: #870030;
+    background-color: #2fab9e;
     position: fixed;
 }
  .intro-body{
- 	background-color:#580009;
- 	height: 100%;
+    background-color: #35c0b2;
+ 	height: 70%;
  	width: 100%;
  }
  .intro{
 	font-family:roboto, sans-serif !important;
 	color:white;
 	text-align:center;
-	font-weight:400;
+	font-weight:bold;
 	font-size: 1.35em;
 	letter-spacing: 2px;
 	line-height: 1.5em;
@@ -40,7 +40,7 @@
 .my-pic{
 	height: 20em;
 	width: 20em;
-	border: 0.35em solid #ffffff; 
+	border: 0.15em solid #FFFFFF;
 	border-radius: 50%;
 	display: block;
     margin-left: auto;
@@ -129,8 +129,8 @@ ul .list{
 
 
 .project-body{
-	background-color:#3c485d;
-	background-position:center;
+	background-color: #3c485d;
+	background-position: center;
 	width: 100%;
 	height:auto;
 }
@@ -139,10 +139,10 @@ ul .list{
     position: relative;
     font-family:Roboto,sans-serif !important;
     float: left;
-    width: 270px;
-    height: 320px;
+    width: 350px;
+    height: 330px;
     box-shadow: 0px 0px 8px 2px #161718;
-    border: 1px solid white;
+    border: 1px solid #35c0b2;
    -webkit-transition: 0.5s ease;
    -moz-transition: 0.5s ease;
     transition: 0.5s ease;
@@ -150,10 +150,10 @@ ul .list{
     background: #3c485d;
 }
 .project-image {
-	min-height: 150px; 
-	width:268px;
+	min-height: 100px;
+	width:348px;
     background-color: white;
-    border: 1px solid white;
+    border: 1px solid #35c0b2;
 }
 .text {
 	display:none;
@@ -190,8 +190,8 @@ h3{
 }
 h4.project-title{
   font-family:Roboto,sans-serif !important;
-  font-weight: 600;
-  font-size: 28px;
+  font-weight: bold;
+  font-size: 18px;
   color: white;
   display: inline;
 }
@@ -200,15 +200,15 @@ h5.project-description{
   padding-left:3px;
   padding-right:3px;
   font-family:Roboto,sans-serif !important;
-  font-size: 20px;
+  font-size: 17px;
   color: white;
   font-weight: 500;
 }
 .project-skills{
   font-family:Roboto,sans-serif !important;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
-  font-weight: 500;
+  font-weight: 700;
 }
 .resume-body{
 	background-color:#d9d9d9;
@@ -292,15 +292,17 @@ h5.project-description{
     font-weight: 100;
     color: #fff;
 }
-@media (max-width: 768px)
-.headings {
-    font-size: 50px;
-    font-weight: 100;
+@media (max-width: 768px) {
+    .headings {
+        font-size: 50px;
+        font-weight: 100;
+    }
 }
-@media (max-width: 992px)
-.headings {
-    font-size: 50px;
-    font-weight: 100;
+@media (max-width: 992px) {
+    .headings {
+        font-size: 50px;
+        font-weight: 100;
+    }
 }
 
 .skill-title {
@@ -371,7 +373,7 @@ h5.project-description{
   background-color: #666666;
 }
 .parallax-window {
-    min-height: 100px;
+    min-height: 80px;
     background: transparent;
 }
 .timeline ul li {
@@ -416,7 +418,7 @@ h5.project-description{
 	display: block;
 	margin-left:45.5%;
 	text-align: center;
-	background-color: #870030;
+	background-color: #2fab9e;
 	color: white;
 	border-radius: 50%;
 	line-height: 120px;

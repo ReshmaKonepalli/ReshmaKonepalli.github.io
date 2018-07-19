@@ -1,13 +1,4 @@
-setTimeout(function(){
-		$(".e1").css("display", "inherit");
-        $(".e1").typed({
-            strings: ["I am an Engineer by passion,"],
-            typeSpeed: 50, // typing speed
-            loop: false, // loop on or off (true or false)
-            loopCount: true, // number of loops, false = infinite
-            callback: function(){ } // call function after typing is done
-        });
-    }, 0);
+
 
 setTimeout(function(){
         $(".e2").css("display", "inherit");
